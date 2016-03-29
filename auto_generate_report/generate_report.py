@@ -9,7 +9,6 @@ import argparse
 import paramiko
 from pyh import *
 
-__author__ = "jiaqi.yan@ele.me"
 BASE_PATH = os.path.abspath(os.path.dirname(__file__))
 DRAW_PIC_SCRIPT = os.path.join(BASE_PATH, 'pic_generater.py')
 HTML_FILE = os.path.join(BASE_PATH, 'report.html')
